@@ -1,0 +1,49 @@
+
+.layout {
+    display: flex;             /* Arrange children side by side */
+  align-items: flex-start;   /* Align children to the top */
+    
+}
+
+#leftSection {
+    flex-direction: column;
+    gap:0px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    border: 1px solid black; 
+    margin-right: 20px;
+
+}
+
+#fishList {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+    gap: 20px; /* Space between items */
+    margin: 10px;
+
+    
+  
+}
+
+#tipList {
+    display: flex;
+    flex-direction: column;
+    
+     
+    margin-left: 20px;
+    padding-left: 0%;
+    
+}
+
+
+#locationList {
+    margin-top: 30px;
+    display:grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.main-header {
+    text-align: center;
+}

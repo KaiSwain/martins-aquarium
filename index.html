@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Martin's Aquarium</title>
+   <link rel="stylesheet" href="./styles/main.css">
+   <link rel="stylesheet" href="./styles/layout.css">
+</head>
+<body>
+   <header>
+       <h1 class="main-header">Martin's Aquarium</h1>
+   </header>
+
+   <main>
+    <div class="layout">
+
+        <div class="leftSection">
+            <div class="fishContainer">
+
+                <h2 class="fishHeader">Fish</h2>
+                <section id="fishList">
+                    <!-- Fish grid will be dynamically generated here -->
+                </section>
+            </div>
+            <div class="locationContainer">
+                <h2 class="locationHeader">Location</h2>
+                <section id="locationList">
+                    <!-- Location grid will be dynamically generated here -->
+                </section>
+            </div>
+        </div>
+        <div class="tipContainer">
+            <h2 class="tipHeader">Tips</h2>
+
+            <aside id="tipList">
+                <!-- Care tips will be dynamically generated here -->
+            </aside>
+        </div>
+    </div>
+        
+        
+   </main>
+
+   <script src="./scripts/main.mjs" type="module"></script>
+</body>
+</html>

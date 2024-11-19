@@ -1,0 +1,38 @@
+
+
+#fishList img {
+    max-width: 200px;
+}
+
+.location {
+    max-width:300px;
+    
+}
+
+.fishHeader {
+    color: blue;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.fishContainer {
+    border: 1px solid black;
+}
+
+.tipHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tipContainer {
+    display:flex;
+    flex-direction: column;
+}
+
+.locationHeader {
+    text-align: center;
+    margin-top: 30px;
+}
+
